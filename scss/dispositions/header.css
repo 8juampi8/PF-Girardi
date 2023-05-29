@@ -15,8 +15,6 @@ header ul .nav-item .nav-link {
 }
 header ul .nav-item .nav-link:hover {
   transform: scale(1.2);
-  color: #FFC107 !important;
+  color: #FFC107;
   transition: all 0.5s ease;
-}
-
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */

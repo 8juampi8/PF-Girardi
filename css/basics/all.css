@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white !important;
+}
+
+body {
+  background-color: rgb(27, 27, 27) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=all.css.map */

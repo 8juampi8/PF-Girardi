@@ -1,0 +1,49 @@
+main{
+    .carousel{
+        width: 500px;
+        height: 715px;
+        img{
+            height: 500px;
+            border: 3px solid #FFC107;
+        }
+    }
+    .secundary-img{
+        width: 30%;
+        border: #FFC107 solid 3px;
+    }
+    .local-img{
+        width: 94%;
+        border: 8px solid #FFC107;
+    }
+    @media (min-width: 0) and (max-width: 576px){
+        .carousel{
+            width: 350px;
+            height: 715px;
+        }
+        
+        .carousel img{
+            height: 370px;
+            border: 3px solid #FFC107;
+        }
+    
+        .column-mediaq{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .column-mediaq img{
+            width: 350px;
+            margin-top: 20px;
+        }
+    
+        .local-img{
+            width: 350px;
+        }  
+    }
+    @media (min-width: 576px) and (max-width: 1200px){
+        .carousel{
+            width: 500px;
+            height: 715px;
+        }
+    }
+}

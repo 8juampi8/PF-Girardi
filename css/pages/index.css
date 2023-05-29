@@ -1,3 +1,45 @@
-
+main .carousel {
+  width: 500px;
+  height: 715px;
+}
+main .carousel img {
+  height: 500px;
+  border: 3px solid #FFC107;
+}
+main .secundary-img {
+  width: 30%;
+  border: #FFC107 solid 3px;
+}
+main .local-img {
+  width: 94%;
+  border: 8px solid #FFC107;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .carousel {
+    width: 350px;
+    height: 715px;
+  }
+  main .carousel img {
+    height: 370px;
+    border: 3px solid #FFC107;
+  }
+  main .column-mediaq {
+    display: flex;
+    flex-direction: column;
+  }
+  main .column-mediaq img {
+    width: 350px;
+    margin-top: 20px;
+  }
+  main .local-img {
+    width: 350px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  main .carousel {
+    width: 500px;
+    height: 715px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

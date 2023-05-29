@@ -1,31 +1,23 @@
 footer {
   background-color: rgb(61, 61, 61);
 }
-
 footer ul {
   font-size: 13px;
 }
-
 footer .logo {
   width: 10%;
 }
-
 footer .logo-container {
   width: 200px;
 }
-
 footer .logo-container a {
   cursor: default;
 }
-
 footer .logo-container a .rrss-img {
   width: 20%;
   transition: all 0.5s ease;
 }
-
 footer .logo-container a .rrss-img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease;
-} 
-
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */
